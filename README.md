@@ -1,5 +1,11 @@
 ## supervisord
-
+```
+sudo systemctl start supervisor.service
+sudo systemctl restart supervisor.service
+sudo systemctl stop supervisor.service
+sudo systemctl enable supervisor.service
+sudo systemctl disable supervisor.service
+```
 #### queue job
 
 ```
